@@ -6,7 +6,7 @@ public class tutorialGameFPS {
         System.out.println("Pilih jenis senjata (Melee Weapon atau Ranged Weapon): ");
         String senjata = input.nextLine();
         
-        if (senjata.equalsIgnoreCase("Melee Weapon")) {
+        
         
 
 
@@ -14,5 +14,5 @@ public class tutorialGameFPS {
         }
 
         
-    }
+    
 }
