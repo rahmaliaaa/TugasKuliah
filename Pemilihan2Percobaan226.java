@@ -18,7 +18,9 @@ public class Pemilihan2Percobaan226 {
             if ((sudut1 == 90) || (sudut2 == 60) || (sudut3 == 90))                
                 System.out.println("Segitiga tersebut adalah segitiga siku-siku ");
             else if  ((sudut1 == 60) && (sudut2 == 60) && (sudut3 == 60)) 
-                System.out.println("Segitiga tersebut adalah segitiga sama kaki");
+                System.out.println("Segitiga tersebut adalah segitiga sama sisi");
+            else if ((sudut1 == 50) || (sudut2 == 50) || (sudut3 == 80))
+                System.out.println("Segitga tersebut adalah segitiga sama kaki");
         } else { 
             System.out.println("Bukan Segitiga");
     }
