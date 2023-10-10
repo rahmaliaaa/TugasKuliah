@@ -18,4 +18,3 @@ System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipata
 System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, total);
     }
 }
-
