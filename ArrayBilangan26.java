@@ -4,7 +4,7 @@ public class ArrayBilangan26 {
         Scanner input26 = new Scanner (System.in);
 
         double[] bil = new double[4];
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i <= 4; i++) {
             System.out.println(bil[i]);
             
             bil[0] = 5.0;
