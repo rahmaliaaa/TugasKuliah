@@ -43,6 +43,8 @@ public class BioskopWithScanner26 {
                     for (int j = 0; j < 2; j++) {
                         if (penonton[i][j] != null) {
                             System.out.println("Baris " + (i + 1) + ", kolom " + (j+i) + ": " + penonton[i][j]);
+                        } else { //modifikasi nomor 5
+                            System.out.println("Baris " + (i + 1) + ", kolom " + (j+i) + ": ***"); 
                         }
                     }
                 }
