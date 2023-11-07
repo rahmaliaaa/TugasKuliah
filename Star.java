@@ -5,7 +5,7 @@ public class Star {
 
         System.out.print("Masukkan nilai N = ");
         int N = sc.nextInt();
-        for(int i=1; i<=N; i++) {
+        for(int i=1; i<=N; i--) { //modifikasi 
             System.out.print("*");
         }
     }
