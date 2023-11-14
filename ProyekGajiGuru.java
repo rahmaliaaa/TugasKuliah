@@ -1,8 +1,9 @@
 import java.util.Scanner;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.List; //untuk deklarasi mapel
+import java.util.ArrayList; //untuk list data guru
 
 public class ProyekGajiGuru {
+    //untuk memberi salam
     static void beriSalam() {
         System.out.println("Selamat Datang Di Sistem Penggajian Guru");
         System.out.println("                                        ");
@@ -21,7 +22,7 @@ public class ProyekGajiGuru {
         double[] pajakGuru = new double[5];
         int[] jumlahTidakMasukGuru = new int[5];
         double[] gajiBersihGuru = new double[5]; // New array for gaji bersih
-
+        //deklarasi
         double pajak = 0, gajiTotal = 0, potonganGaji1 = 0, gajiBersih1 = 0, totalGaji = 0, totalPajak = 0;
         int jumlahKaryawan;
 
@@ -82,7 +83,7 @@ public class ProyekGajiGuru {
                         if (jabatanGuru[i].equalsIgnoreCase("PNS")) {
                             if (golonganGuru[i] == 1) {
                                 pajakGuru[i] = 0.05;
-                                System.out.println("Pajak (Golongan 1): " + (pajakGuru[i] * 100) + "%");
+                                System.out.println("Pajak (Golongan 1): " + (pajakGuru[i] * 100) + "%"); //mengonversi nilai pajak dari desimal menjadi presentase (dikalikan 100)
                             } else if (golonganGuru[i] == 2) {
                                 pajakGuru[i] = 0.015;
                                 System.out.println("Pajak (Golongan 2): " + (pajakGuru[i] * 100) + "%");
