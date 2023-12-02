@@ -46,7 +46,7 @@ public class ProyekGajiGuru {
                 }
             }
             if (!loginSuccessful) {
-                System.out.println("Login berhasil");
+                System.out.println("Login berhasil"); 
             } else {
                 System.out.println("Login gagal!");
                 System.out.println("Klik <enter> untuk kembali ke halaman login");
@@ -156,8 +156,7 @@ public class ProyekGajiGuru {
                     kodeGuru.add(20040414);
                     for (int j = 0; j < namaTeacher.size(); j++) {
                         System.out.println(
-                                "nama guru: " + namaTeacher.get(j) + ", mata pelajaran: " + mataPelajaran.get(j)
-                                        + ", kode guru: " + kodeGuru.get(j));
+                                "nama guru: " + namaTeacher.get(j) + ", mata pelajaran: " + mataPelajaran.get(j) + ", kode guru: " + kodeGuru.get(j));
                     }
                     break;
                 case 3:
@@ -176,7 +175,7 @@ public class ProyekGajiGuru {
                         switch (kehadiran) {
                             case 1:
                                 int jumlahTeacher = 0;
-                                int[][] presence = new int[5][4];
+                                int[][] presence = new int[5][20];
                                 System.out.print("Masukkan jumlah guru: ");
                                 jumlahTeacher = sc.nextInt();
                                 for (int p = 0; p < jumlahTeacher; p++) {
